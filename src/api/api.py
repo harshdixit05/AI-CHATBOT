@@ -4,9 +4,9 @@ import google.generativeai as genai
 class GeminiAPI:
     def __init__(self):
         
-        api_key = "AIzaSyDUAGuHeoVMVM4DGEH4AnG6b7S2sMebPv"
+        api_key = "Your API Key"
        
-        genai.configure(api_key="AIzaSyDUAGuHeoVMVM4DGEH4AnG6b7S2sMebPvs")
+        genai.configure(api_key="Your API Key")
         self.model = genai.GenerativeModel('gemini-2.0-flash')
 
     def generate_sql_query(self, user_input, table_schema_hint="athletes(Name TEXT, Sex TEXT, Age INT, Height FLOAT, Weight FLOAT, Team TEXT, NOC TEXT, Games TEXT, Year INT, Season TEXT, City TEXT, Sport TEXT, Event TEXT, Medal TEXT)"):
