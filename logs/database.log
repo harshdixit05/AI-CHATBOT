@@ -1,0 +1,189 @@
+2025-05-20 18:02:17,119 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:04:19,306 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:10:00,412 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:10:12,401 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:10:14,116 - ERROR - Error calling Gemini API: 404 Client Error: Not Found for url: https://api.gemini.com/v1/generate/generate
+2025-05-20 18:10:14,116 - ERROR - Error in main loop: 404 Client Error: Not Found for url: https://api.gemini.com/v1/generate/generate
+2025-05-20 18:10:14,133 - INFO - Database connection closed
+2025-05-20 18:12:41,889 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:12:48,083 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:12:49,704 - ERROR - Error calling Gemini API: 404 Client Error: Not Found for url: https://api.gemini.com/v1/generate/generate
+2025-05-20 18:12:49,704 - ERROR - Error in main loop: 404 Client Error: Not Found for url: https://api.gemini.com/v1/generate/generate
+2025-05-20 18:12:49,707 - INFO - Database connection closed
+2025-05-20 18:14:00,992 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:14:09,287 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:14:12,682 - ERROR - Error calling Gemini API: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent/generate
+2025-05-20 18:14:12,682 - ERROR - Error in main loop: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent/generate
+2025-05-20 18:14:12,682 - INFO - Database connection closed
+2025-05-20 18:23:54,348 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:24:00,781 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:24:03,180 - ERROR - Error calling Gemini API: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent/generate
+2025-05-20 18:24:03,180 - ERROR - Error in main loop: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent/generate
+2025-05-20 18:24:03,180 - INFO - Database connection closed
+2025-05-20 18:24:41,359 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:24:47,881 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:24:50,025 - ERROR - Error calling Gemini API: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-latest:generateContent/generate
+2025-05-20 18:24:50,025 - ERROR - Error in main loop: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-latest:generateContent/generate
+2025-05-20 18:24:50,025 - INFO - Database connection closed
+2025-05-20 18:25:12,650 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:25:17,473 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:25:19,627 - ERROR - Error calling Gemini API: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent/generate
+2025-05-20 18:25:19,627 - ERROR - Error in main loop: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent/generate
+2025-05-20 18:25:19,627 - INFO - Database connection closed
+2025-05-20 18:26:33,729 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:26:38,698 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:26:40,839 - ERROR - Error calling Gemini API: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=API/generate
+2025-05-20 18:26:40,840 - ERROR - Error in main loop: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=API/generate
+2025-05-20 18:26:40,841 - INFO - Database connection closed
+2025-05-20 18:27:21,843 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:27:26,963 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:27:29,159 - ERROR - Error calling Gemini API: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=API/generate
+2025-05-20 18:27:29,159 - ERROR - Error in main loop: 401 Client Error: Unauthorized for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=API/generate
+2025-05-20 18:27:29,159 - INFO - Database connection closed
+2025-05-20 18:30:24,503 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:30:29,489 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:30:32,360 - ERROR - Error calling Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+violations {
+}
+violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-05-20 18:30:32,361 - ERROR - Error in main loop: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+violations {
+}
+violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-05-20 18:30:32,361 - INFO - Database connection closed
+2025-05-20 18:31:07,803 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:31:13,792 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:31:16,328 - ERROR - Error calling Gemini API: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-20 18:31:16,328 - ERROR - Error in main loop: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-20 18:31:16,328 - INFO - Database connection closed
+2025-05-20 18:32:51,496 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:32:56,466 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:32:59,326 - ERROR - Error calling Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+violations {
+}
+violations {
+}
+violations {
+}
+violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+]
+2025-05-20 18:32:59,326 - ERROR - Error in main loop: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+violations {
+}
+violations {
+}
+violations {
+}
+violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+]
+2025-05-20 18:32:59,326 - INFO - Database connection closed
+2025-05-20 18:35:03,729 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:35:08,910 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:35:11,696 - ERROR - Error calling Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+violations {
+}
+violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-05-20 18:35:11,696 - ERROR - Error in main loop: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+violations {
+}
+violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-05-20 18:35:11,699 - INFO - Database connection closed
+2025-05-20 18:36:17,604 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:36:23,694 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:36:26,274 - ERROR - Error calling Gemini API: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-20 18:36:26,274 - ERROR - Error in main loop: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-20 18:36:26,274 - INFO - Database connection closed
+2025-05-20 18:38:20,783 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-20 18:38:26,632 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:38:37,335 - INFO - Gemini API response received for prompt: who won bronze
+2025-05-20 18:38:37,335 - INFO - User query: who won bronze, Response: Here's a summary of athletes who won bronze medals at the 2016 Summer Olympics in Rio de Janeiro: There were 485 bronze medalists in the 2016 Summer Olympics. I can provide details on specific athletes or sports if you have further questions.
+
+2025-05-20 18:40:30,259 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Team = %s
+2025-05-20 18:40:30,261 - INFO - No results for query: find athletes from usa
+2025-05-20 18:40:41,764 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:40:41,765 - INFO - No results for query: who won gold in tennis
+2025-05-20 18:40:52,916 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Sport = %s
+2025-05-20 18:40:57,900 - INFO - Gemini API response received for prompt: who plays tennis
+2025-05-20 18:40:57,916 - INFO - User query: who plays tennis, Response: Here's a list of athletes who participated in Tennis events at the 2016 Summer Olympics in Rio de Janeiro: Radu Albot, Tmea Babos, Timea Bacsinszky, Brian Richard Baker, Mirza Baši\u0107, Nikoloz Basilashvili, Roberto Bautista Agut, Annika Beck, Irina Camelia Begu, Thomaz Cocchiarali Bellucci, Ri\u010dardas Berankis, Kiki Bertens, Rohan Bopanna, Eugenie Bouchard, Dustin Brown, Aleksandr Ivanovich Bury, Ça\u011fla Büyükakçay, Juan Sebastián Cabal Valdés, Verónica Cepede Royg, Chan Hao-Ching, Chan Yung-Jan, Marin \u010cili\u0107, Borna \u0106ori\u0107, Alizé Cornet, Pablo Gabriel Cuevas Urroz, Gabriela "Gaby" Dabrowski, Taro Daniel, Marcus Daniell, Juan Martín del Potro, Federico Delbonis, Grigor Dimitrov Dimitrov, Misaki Doi, Yevgeny Yevganyevich Donskoy, Novak \u0110okovi\u0107, Marin Draganja, Mariana Duque Mariño, Guillermo Durán, Rogério Dutra Silva, Damir Džumhur, Kyle Edmund, Gastão Elias, Sara Errani, Víctor Estrella Burgos, Thomas Fabbiano, Robert Charbel Farah Maksoud, David Ferrer Ern, Colin Fleming, Kirsten Flipkens, Fabio Fognini, Teymuraz Gabashvili, Caroline Garcia, Daria Gavrilova, David Goffin, Paula Cristina Gonçalves, Máximo González, Santiago González Torre, Anna-Lena Grönefeld, Samuel Groth, Christopher Luke Guccione, Robin Haase, Pierre-Hugues Herbert, Polona Hercog, Nao Hibino, Martina Hingis (-Hutin), Andrea Hlavá\u010dková, Eri Hozumi, Lucie Hradecká, Dominic Inglot, Denis Istomin, Ana Ivanovi\u0107 (-Schweinsteiger), Ons Jabeur, Réka-Luca Jani, Jelena Jankovi\u0107, Jerzy Janowicz, Klaudia Jans-Ignacik, Malek Jaziri, Steve Johnson, Paula Kania, Darya Kasatkina, Angelique Kerber, Madison Keys, Lyudmyla Kichenok, Nadiia Kichenok, Darian King, Karin Knapp, Philipp Kohlschreiber, Thanasi Kokkinakis, Ana Konjuh, Johanna Konta, Danka Kovini\u0107
+2025-05-20 18:41:27,722 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:41:39,974 - INFO - Gemini API response received for prompt: who won bronze
+2025-05-20 18:41:39,974 - INFO - User query: who won bronze, Response: Here's a summary of the athletes who won bronze at the 2016 Summer Olympics in Rio de Janeiro, based on the data:
+
+The data includes a list of athletes including  Giovanni Abagnale, Patimat Abakarova, Saeid Morad Abdevali, and many others who won bronze medals. They competed in various sports, representing different countries, at the 2016 Summer Olympics in Rio. Would you like to know bronze medal winners for a specific sport or country?
+
+2025-05-20 18:42:04,423 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Medal = %s
+2025-05-20 18:42:04,425 - INFO - No results for query: who won bronze in tennis
+2025-05-20 19:30:56,223 - INFO - Query executed successfully: SELECT * FROM athletes WHERE Team = %s
+2025-05-20 19:30:56,227 - INFO - No results for query: who won bronze in tennis and is from usa
+2025-05-21 12:00:52,688 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-21 12:01:29,287 - ERROR - Error executing query: 1146 (42S02): Table 'trent.athletes' doesn't exist
+2025-05-21 12:01:29,287 - ERROR - Error in main loop: 1146 (42S02): Table 'trent.athletes' doesn't exist
+2025-05-21 12:01:29,289 - INFO - Database connection closed
+2025-05-21 12:03:53,244 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-21 12:04:00,832 - ERROR - Error executing query: 1146 (42S02): Table 'trent.athletes' doesn't exist
+2025-05-21 12:04:00,833 - ERROR - Error in main loop: 1146 (42S02): Table 'trent.athletes' doesn't exist
+2025-05-21 12:04:00,833 - INFO - Database connection closed
+2025-05-21 12:09:42,503 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-21 12:09:49,692 - ERROR - Error in main loop: 'Database' object has no attribute 'get_athletes_by_medal'
+2025-05-21 12:09:49,693 - INFO - Database connection closed
+2025-05-21 12:14:39,560 - INFO - Successfully connected to MySQL database 'trent'
+2025-05-21 12:14:50,690 - ERROR - Error in main loop: 'Database' object has no attribute 'get_athletes_by_medal'
+2025-05-21 12:14:50,693 - INFO - Database connection closed
