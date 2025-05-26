@@ -1,13 +1,14 @@
 from src.database.db import Database
 from src.api.api import GeminiAPI
 
+
 def main():
     db = Database()
     db.connect()  # Connect to the database
 
     gemini = GeminiAPI()
 
-    print("Welcome to the Olympic Athletes AI Agent! Type 'exit' to quit.")
+    print("Welcome to the GYM Fitness AI Agent! Type 'exit' to quit.")
     while True:
         user_input = input("Ask your question: ")
         if user_input.lower() == 'exit':
