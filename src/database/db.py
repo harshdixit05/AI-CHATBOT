@@ -17,6 +17,18 @@ class Database:
             print(f"Database connection failed: {err}")
             raise
         
+    def get_schema_info(self):
+        cursor = self.connection.cursor()
+        cursor.execute("SHOW TABLES")
+        tables = [row[0] for row in cursor.fetchall()]
+        schema_info = []
+        for table in tables:
+            cursor.execute(f"DESCRIBE {table}")
+            cols = cursor.fetchall()
+            colnames = [col[0] for col in cols]
+            schema_info.append((table, colnames))
+        cursor.close()
+        return schema_info
 
     def query(self,query, params=None):
         cursor = self.connection.cursor(dictionary =True)
