@@ -1,0 +1,41 @@
+Agentic_AI/
+│
+├── main.py                      
+├── README.md                    # Docs on how to run, configure, and use
+├── requirements.txt             # Dependencies
+├── .env                         # API keys, DB URIs, secrets
+├── config/ 
+├── data        
+│   ├── csv files
+│
+├── logs/                       
+│   
+│
+├── src/                         # All source code
+│   ├── api/                     
+│   │   ├── api.py               #LLM Connection (Gemini)
+│   │   └── __init__.py
+│   │
+│   ├── database/                # DB connection & queries
+│   │   ├── db.py
+│   │   └── __init__.py
+│   │
+│   ├── vector_store/            # Vector DB wrappers
+│   │   ├── faiss_store.py
+│   │   ├── qdrant_store.py
+│   │   ├── chroma_store.py
+│   │   ├── milvus_store.py
+│   │   └── __init__.py
+│   │
+│   ├── cache/                   # Caching layer (e.g.,semanticCache)
+│   │   ├── cache.py
+│   │   └── __init__.py             
+│   │     
+│   │
+│   ├── utils/                   # Helper functions (SQL)
+│       ├── sql_utils.py      
+│       └── __init__.py
+│   
+│      
+│
+└── .gitignore                   

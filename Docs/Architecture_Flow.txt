@@ -1,0 +1,48 @@
+                ┌────────────────────┐
+                │     User Query     │
+                └────────┬───────────┘
+                         │
+                         ▼
+       ┌────────────────────────────────────┐
+       │ 1. Check in Semantic Cache         │
+       │    • If Hit → Use cached SQL       │
+       │    • Else → Proceed to vector step │
+       └────────────────────────────────────┘
+                         │
+                         ▼
+       ┌────────────────────────────────────────────┐
+       │ 2. Vector Store (FAISS / Chroma / etc.)    │
+       │    • User query & DB schema are embedded   │
+       │    • Top-K similar schema chunks are found │
+       └────────────────────────────────────────────┘
+                         │
+                         ▼
+       ┌────────────────────────────────────────────┐
+       │ 3. LLM (Gemini API)                        │
+       │    • Input: Question + Similar Schema      │
+       │    • Output: SQL query                     │
+       └────────────────────────────────────────────┘
+                         │
+                         ▼
+       ┌─────────────────────────────┐
+       │ 4. Store SQL in Cache       │
+       └─────────────────────────────┘
+                         │
+                         ▼
+       ┌────────────────────────────────┐
+       │ 5. Run SQL Query on Database   │
+       │    • Catch & handle errors     │
+       └────────────────────────────────┘
+                         │
+                         ▼
+       ┌─────────────────────────────────────────────┐
+       │ 6. Post-process Result with Gemini          │
+       │    • If <= 20 rows → Full result to Gemini  │
+       │    • Else → Top 20 rows only to Gemini      │
+       │    • Gemini generates a human-readable ans. │
+       └─────────────────────────────────────────────┘
+                         │
+                         ▼
+                ┌────────────────────┐
+                │   Friendly Answer  │
+                └────────────────────┘
